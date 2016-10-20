@@ -1,0 +1,262 @@
+/*
+Theme Name:Portal Reggae Cruz das Almas
+Descripition: Portal sobre o Movimento Cultural Reggae nos Bairro
+Author: Rogério Passos
+Version: 1.0
+
+*/
+*{margin: 0; padding: 0;}
+body {background: url(images/fundo.jpg)no-repeat fixed center; font: 14px arial,tahoma,verdana; text-align:center;}
+/*body {background: url(images/fundo.jpg)no-repeat center;;} */
+
+/*== HEADER ===*/
+#header {width: 100%; background: transparent;} /*url(images/fundo.jpg)no-repeat center;} */
+#header-superior{width: 100%; background:  #fff; border-bottom: 1px solid #e1e1e1;}
+#header-superior-content{width: 1000px; margin: 0 auto; overflow: hidden;}
+#header-paginas{float: left;}
+#header-paginas ul {margin: 0; padding: 0; list-style: none;}
+#header-paginas ul li {float: left;}
+#header-paginas ul li a {color: #000000; text-decoration: none;padding: 20px 10px; display: block;border-right: 1px solid #049238; }
+#header-paginas ul li a:hover {color: #049238;background: #111; }
+#header-Social{float: right; }
+#header-Social a{display: block; margin: 12px 0 0 10px; float: left;}
+#header-content{width: 1000px; margin: 0 auto; overflow: hidden;}
+#logo { float: left;padding: 25px 8px 8px 12px;margin-top: 40px;}
+
+#login {float: right;margin: top 50px;margin-right: 30px;}
+#login ul {margin: 0; padding: 0px; list-style: none;}
+#login ul li {float: left;}
+#login ul li a {padding: 6px; display: block; text-decoration: none; color: #fff;}
+#login ul .logar a {background: #292929;}
+#login ul .registre a {background: #171717;}
+#search{float: right;}
+#search input {float: left; border: 0; padding: 6px 8px; width: 200px; background: #f5f5f5;}
+#search .btn-search{background: #f5f5f5 url(images/lupa.png)no-repeat center;width: 28px; height: 17px; cursor: pointer;}
+
+/*===BARRA DE NAVEGAÇAO===*/
+#nav{width: 95%; float: left;background:url(images/Jamaica.png)no-repeat center ;  border-top: 2px solid #049238;height: 45px;padding: 0px 40px 0px 30px;border-bottom: 2px solid #049238;border-left:;margin-top: 0px; position: fixed;z-index: 999;}
+#nav-content{width: 1200px; margin: 2px auto;height: 30px;}
+#nav-content ul{float: left; list-style: none;text-align: center;margin-left: 200px;height: 30px; margin-top: -9px;}
+#nav-content ul li{float: left;position: relative; font: 15px arial,verdana,tahoma; font-weight: bold; text-transform: uppercase;border-right: 1px solid #333;border-left: 1px solid #333;padding: 0px 40px 0px 30px;margin:6px auto;text-decoration: none;}
+#nav-content ul li a {display: block; padding:20px 5px 10px 20px;text-decoration: none; color: #ffffff;}
+#nav-content ul li:hover {background: #049238;}
+
+/*== CONTEUDO CONTAINER== */
+#container {background:#17171717; width: 1000px; margin: 0 auto; text-align: left;overflow: hidden;padding: 0px 5px ;border: 4px solid #049238;}
+#content {background: #17171717; width: 690px; float: left; overflow: hidden;margin-bottom: 5px; }
+
+/*==DESTAQUE==*/
+#destaque {width: 100%; float: left; margin-top: 30px; border-bottom: 1px solid #feeeee;margin-left: 10px;}
+#destaque .destaque-post {width: 330px;float: left;}
+#destaque .right {float: right;}
+#destaque .destaque-post img {width: 330px; height: 190px;}
+#destaque .destaque-post h1 {font: 18px arial; font-weight: bold;}
+#destaque .destaque-post h1 a{color: #000000; text-decoration: none; }
+#destaque .destaque-post h1 a:hover {color: #049238; text-decoration: underline;}
+#destaque .destaque-info { width: 100%; float: left;}
+#destaque .destaque-info ul {padding: 0; margin: 0; list-style: none;}
+#destaque .destaque-info ul li {width: 60px; color: #777; float: left; padding: 4px 20px;}
+#destaque .destaque-info ul .dest-autor{ background: url(/images/author.png) no-repeat left center;}
+#destaque .destaque-info ul .dest-views{ background: url(/images/views.png) no-repeat left center;}
+#destaque .destaque-info ul .dest-coment{ background: url(/images/comment.png) no-repeat left center;}
+#destaque .list-dest {width: 100%; float: left; margin-top: 20px;}
+#destaque .list-dest li {width: 100%;  list-style: none; float: left; padding: 14px 0; border-top: 1px solid #efeeee;}
+#destaque .list-dest img { width: 96px; height: 60px; float: left;margin-right: 8px;}
+#destaque .list-dest h2 {font: 14px arial;}
+#destaque .list-dest h2 a {color: #000000; text-decoration: none;}
+#destaque .list-dest h2 a:hover {color: #049238; text-decoration: underline; }
+
+/*===EVENTOS===*/
+#eventos {width: 100%;float: left; margin-top: 28px;}
+#eventos #title-evento{border-bottom: 2px solid #efeeee;padding: 5px 0;}
+#eventos #title-evento span {font: 22px arial; font-weight: bold; color: #292929;border-bottom: 2px solid #049238;padding: 5px 0;}
+#eventos .post-evento{width: 100%; float: left; padding: 20px 0; border-bottom: 1px solid #efeeee; }
+#eventos .post-evento img {width: 200px; height: 120px; float: left;margin-right: 12px;}
+#eventos .post-evento h1 {font: 22px arial;}
+#eventos .post-evento h1 a {color: #000000; text-decoration: none; }
+#eventos .post-evento h1 a:hover{color: #049238; text-decoration: underline;}
+#eventos .evento-info {width: 400px; margin: 4px 0; float: left; }
+#eventos .evento-info ul {margin: 0; padding: 0; list-style: none;}
+#eventos .evento-info ul li {width: 60px; color: #000000; float: left;background: #069;}
+#eventos .evento-info ul .evento-autor{  background: url(/images/author.png) no-repeat left center;}
+#eventos .evento-info ul .evento-views{  background: url(/images/author.png) no-repeat left center;}
+#eventos .evento-info ul .evento-coment{ background: url(/images/author.png) no-repeat left center;}
+#eventos .post-evento p {color: #4f4f4f; float: left; width: 450px;}
+#eventos .post-evento p a{color:#690;}
+
+/*===GALERIA====*/
+#galeria {width: 100%; float: left; margin-top: 28px;}
+#galeria #title-galeria {border-bottom: 2px solid #efeeee; padding: 5px 0;}
+#galeria #title-galeria span {font: 22px arial; font-weight: bold; color: #292929; border-bottom: 2px solid #049238; padding: 5px 0;}
+#galeria .post-galeria {width: 215px; float: left;padding: 20px 6px; }
+#galeria .post-galeria img {width: 215px;height: 160px;  }
+#galeria .post-galeria h1 {font: 16px arial; font-weight: bold; margin: 5px 0;}
+#galeria .post-galeria h1 a{text-decoration: none;color: #000000;}
+#galeria .post-galeria h1 a:hover {text-decoration: underline; color: #049238;}
+#galeria .galeria-info {width: 210px; margin: 6px 0; float: left;}
+#galeria .galeria-info ul{ margin: 0; padding: 0 ; list-style: none;}
+#galeria .galeria-info ul li {width: 60px;float: left; color: #000000;padding: 4px 20px;}
+#galeria .galeria-info ul .galeria-autor{background: url(/images/author.png) no-repeat left center;}
+#galeria .galeria-info ul .galeria-views{background: url(/images/author.png) no-repeat left center;}
+#galeria .post-galeria p {font: 14px arial;color: #4f4f4f;}
+
+/* ====BLOCO MUNDO FUNDO ===*/
+#bloco-mundo-fundo {width: 100%; float: left; border-bottom: 1px solid #efeeee;padding: 10px 0;}
+#mundo {width: 330px; float: left;}
+#title-mundo {border-bottom: 2px solid #efeeee; padding: 5px 0;}
+#title-mundo span {font: 22px arial; font-weight: bold; color: #000000; border-bottom: 2px solid #049238; padding: 5px 0;}
+#mundo img { width:  330px; height: 180px; margin: 20px 0 0 0; float: left;}
+.mundo-info {width: 100%; float: left; background: #049238;}
+.mundo-info ul { margin: 0; padding: 0; list-style: none;}
+.mundo-info ul li {float: left; width: 40px; color: #000000; padding: 4px 20px;}
+.mundo-info ul .mundo-autor{ width: 100%; background: url(/images/author.png) no-repeat left center;}
+.mundo-info ul .mundo-views{ background: url(/images/author.png) no-repeat left center;}
+.mundo-info ul .mundo-coment{ background: url(/images/author.png) no-repeat left center;}
+#mundo h1 {font: 14px arial; font-weight: bold; float: left; margin: 10px 0;}
+#mundo h1 a {color: #000000;text-decoration: none;}
+#mundo h1 a:hover {color: #049238; text-decoration: underline;}
+#mundo #mundo-list{ float: left;width: 100%;}
+#mundo #mundo-list ul {margin: 0; padding: 0; list-style: none;}
+#mundo #mundo-list ul li {width: 100%; float: left; border-top: 1px solid #049238;padding: 10px 0;}
+#mundo #mundo-list ul li img {width: 70px; height: 70px; float: left; margin: 0 8px 0 0 ;}
+#mundo #mundo-list h2 {font: 14px arial; padding: 6px 0;}
+#mundo #mundo-list h2 a { color: #000000; text-decoration: none;}
+#mundo #mundo-list h2 a:hover {color: #049238;text-decoration: underline;}
+
+/*====FUNDO===*/
+#fundo {width: 330px; float: right;}
+#title-fundo {border-bottom: 2px solid #efeeee; padding: 5px 0;}
+#title-fundo span {font: 22px arial; font-weight: bold; color: #000000; border-bottom: 2px solid #049238; padding: 5px 0;}
+#fundo img { width:  330px; height: 180px; margin: 20px 0 0 0; float: left;}
+.fundo-info {width: 100%; float: left; background: #049238;}
+.fundo-info ul { margin: 0; padding: 0; list-style: none;}
+.fundo-info ul li {float: left; width: 60px; color: #000000; padding: 4px 20px;}
+.fundo-info ul .fundo-autor{ background: url(/images/author.png) no-repeat left center;}
+.fundo-info ul .fundo-views{ background: url(/images/author.png) no-repeat left center;}
+.fundo-info ul .fundo-coment{ background: url(/images/author.png) no-repeat left center;}
+#fundo h1 {font: 14px arial; font-weight: bold; float: left; margin: 10px 0;}
+#fundo h1 a {color: #000000;text-decoration: none;}
+#fundo h1 a:hover {color: #049238; text-decoration: underline;}
+#fundo #fundo-list{ float: left;width: 100%;}
+#fundo #fundo-list ul { margin: 0; padding: 0; list-style: none;}
+#fundo #fundo-list ul li {width: 100%; float: left; border-top: 1px solid #049238;padding: 10px 0;}
+#fundo #fundo-list ul li img {width: 70px; height: 70px; float: left; margin: 0 8px 0 0 ;}
+#fundo #fundo-list h2 {font: 14px arial; padding: 6px 0;}
+#fundo #fundo-list h2 a { color: #000000; text-decoration: none;}
+#fundo #fundo-list h2 a:hover {color: #049238;text-decoration: underline;}
+
+/*== SIDEBAR ==*/
+#siderbar{width: 280px;float: right; overflow: hidden;  margin-top: 30px;}
+
+/*===SIDEBAR VISTOS ===*/
+#sidebar-vistos {width: 100%; float: left; }
+#sidebar-vistos #title-vistos {border-bottom: 2px solid #efeeee; padding: 5px 0;}
+#sidebar-vistos #title-vistos span {font: 22px arial; font-weight: bold; color #292929;padding: 5px 0; border-bottom: 2px solid #049238;}
+#sidebar-vistos ul {margin: 0; padding: 0; list-style: none;}
+#sidebar-vistos ul li { font: 16px arial; font-weight: bold; margin: 5px 0;width: 100%; float: left; border-bottom: 1px solid #efeeee;padding: 10px 0;}
+#sidebar-vistos ul li a{color: #000000; text-decoration: none;}
+#sidebar-vistos ul li a:hover {color: #049238; text-decoration: underline;}
+#sidebar-vistos .vistos-number {padding: 10px; font: 18px arial; color: #fff; float: left;background: #049238;margin-right: 10px;}
+
+/*====COMISSAO===*/
+#sidebar-comissao {width: 100%; float: left;margin-top: 30px;}
+#sidebar-comissao #title-comissao{border-bottom: 2px solid #efeeee; padding: 5px 0 ;}
+#sidebar-comissao #title-comissao span {font: 22px arial; font-weight: bold; color #292929;padding: 5px 0; border-bottom: 2px solid #049238;}
+#sidebar-comissao .comissao {width: 100%; float: left;}
+#sidebar-comissao .comissao ul {margin: 0; padding: 0; list-style: none;}
+#sidebar-comissao .comissao ul li {float: left;width: 100%; padding: 18px 0;border-bottom: 1px solid #efeeee;}
+#sidebar-comissao .comissao ul li img {float: left;}
+#sidebar-comissao .comissao ul li h1 {height: 46px; font: 16px arial; font-weight: bold;width: 195px; float: left; margin-left: 10px;}
+#sidebar-comissao .comissao ul li h1 a{ color: #292929; text-decoration: none; }
+#sidebar-comissao .comissao ul li h1 a:hover{color: #049238; text-decoration: underline;}
+#sidebar-comissao .info-comissao {width: 205px; float: left; background: #049238;} 
+#sidebar-comissao .info-comissao ul{margin: 0; padding: 0; list-style: none;}
+#sidebar-comissao .info-comissao ul li {float: left;width: 20px;height: 20px;padding: 0;margin: 2px 14px;border-bottom: none;}
+
+/*===========PUBLICIDADE=====================*/
+#sidebar-publicidade {width: 100%; float: left; margin-top: 30px;}
+#sidebar-publicidade #title-publi {border-bottom: 2px solid #efeeee; padding: 5px 0 ;}
+#title-publi span {font: 22px arial; font-weight: bold; color #292929;padding: 5px 0; border-bottom: 2px solid #049238;}
+#sidebar-publicidade ul {margin: 0; padding: 0; list-style: none;}
+#sidebar-publicidade .publi-maior {width: 280px; height: 230px; float: left; background: #eee;margin: 18px 0;}
+#sidebar-publicidade .publi-left {width: 125px; float: left; background: #eee;height: 125px;}
+#sidebar-publicidade .publi-right {width: 125px; float: right; background: #eee;height: 125px;}
+
+/*===========PUBLICIDADE=====================*/
+#sidebar-coment {width: 100%; float: left; margin-top: 30px;}
+#sidebar-coment #title-coment {border-bottom: 2px solid #efeeee; padding: 5px 0;}
+#sidebar-coment #title-coment span {font: 22px arial; font-weight: bold; color #292929;padding: 5px 0; border-bottom: 2px solid #049238;}
+#sidebar-coment ul {margin: 0; padding: 0; list-style: none;}
+#sidebar-coment ul li { width: 100%; float: left; border-bottom: 1px solid #efeeee;padding: 10px 0;}
+#sidebar-coment ul li a{color: #000000; text-decoration: none;}
+#sidebar-coment ul li a:hover {color: #049238; text-decoration: underline;}
+#sidebar-coment .coment-number {padding: 10px; font: 18px arial; color: #fff; float: left;background: #049238;margin-right: 10px;}
+
+/*===========FACEBOOK=====================*/
+#sidebar-facebook {width: 100%; float: left; margin-top: 30px;z-index: -15; }
+#sidebar-facebook #title-facebook {border-bottom: 2px solid #efeeee; padding: 5px 0;}
+#sidebar-facebook #title-facebook span {font: 22px arial; font-weight: bold; color #292929;padding: 5px 0; border-bottom: 2px solid #049238;}
+#sidebar-facebook #face-box {margin-top: 20px;}
+
+/*====Paginas page =====*/
+.main-page{margin-top: 30px;}
+.main-page #title-page{border-bottom: 2px solid #efeeee;padding: 5px 0;}
+.main-page #title-page span {text-transform: uppercase; font: 22px arial; font-weight: bold; color: #292929;border-bottom: 2px solid #049238;padding: 5px 0;}
+.main-page p{margin: 15px; font: 13px arial; color: #fff; }
+.main-page p a{color:#069; text-decoration: nome;}
+.main-page p a:hover{text-decoration: underline;}
+.main-page strongs{font-weight: bold; color:#444;}
+
+/*====singlesingle=====*/
+.main-single {margin-top: 30px;}
+.main-single #title-single{border-bottom: 2px solid #efeeee;padding: 5px 0;}
+.main-single #title-single span {text-transform: uppercase; font: 22px arial; font-weight: bold; color: #292929;border-bottom: 2px solid #049238;padding: 5px 0;}
+.main-single p{margin: 15px; font: 13px arial; color: #fff; }
+.main-single p a{color:#069; text-decoration: nome;}
+.main-single p a:hover{text-decoration: underline;}
+.main-single strongs{font-weight: bold; color:#444;}
+
+/*====caixa de autohr single=====*/
+.author{background: #f0f0f0; border: 1px solid #d2d2d2; padding: 10px; width: auto; color: #333; overflow: hidden;}
+.author h3 {font-size: 18px; color: #222; margin: 0; text-transform: uppercase;}
+.author h3 a {text-decoration: none; color: #222;font-weight: bold;}
+.author img {margin: 0; padding: 10px; float: left; border-bottom: #ed5353 solid;background: #e1e1e1;margin-right: 15px;width: 100px;height: 100px;}
+
+/*====Contato =====*/
+.main-page form input[type=text],[type=email]{width: 600px; background: #eee; border: 1px solid #e1e1e1;padding: 10px;}
+.main-page form input[type=text]:focus {border: 1px solid #069;}
+.main-page form input[type=email]:focus{border: 1px solid #069;}
+.main-page form textarea{width: 600px; background: #eee; border: 1px solid #e1e1e1;padding: 10px;}
+.main-page form textarea:focus{border: 1px solid #069;}
+.main-page form input[type=submit]{background: #222; color: #fff; padding: 12px 6px;border: 2px solid #000;cursor: pointer;}
+
+
+/*===========FOOTER=====================*/
+#footer {width: 100%; clear: both; background:#33333333; overflow: hidden;margin-top: 30px; text-align: left;border-top: 5px solid #049238;}
+#footer-content {width: 1000px; margin: 0 auto;  }
+#footer-content #title-footer {width: 100%; overflow: hidden; border-bottom: 1px solid #333;margin-left: 20px;}
+#footer-content #title-footer span{text-transform: uppercase; float: left; padding: 10px 0;}
+#footer-sobre { width: 330px; float: left; margin-top: 25px;margin-right: 30px;margin-left: 30px;}
+#footer-sobre a {color: #ed5353;}
+#footer-sobre #title-sobre {width: 100%; padding: 5px 0;border-bottom: 2px solid #efeeee;margin-bottom: 10px;}
+#footer-sobre #title-sobre span {font: 22px arial; font-weight: bold; padding: 5px 0 ; color: #f8f8f8;border-bottom: 2px solid #049238;}
+#footer-sobre p {font: 14px arial; color: #bcbbbb; line-height: 18px; padding: 6px 0;}
+#footer-paginas {width: 200px; float: left; margin-top: 25px;}
+#footer-paginas  #title-pagina {width: 100%; padding: 5px 0;border-bottom: 2px solid #efeeee;}
+#footer-paginas  #title-pagina span {font: 22px arial; font-weight: bold; padding: 5px 0 ; color: #f8f8f8;border-bottom: 2px solid #049238;}
+#footer-paginas ul {margin: 0; padding: 0; list-style: none;}
+#footer-paginas ul li {width: 100%; border-bottom: 1px solid #333;padding: 8px 0;font: 13px arial;font-weight: bold;}
+#footer-paginas ul li a {color: #f8f8f8; text-decoration: none; }
+#footer-paginas ul li a:hover {color: #049238;}
+#footer-recentes {width: 280px; float: left; margin-top: 25px;margin-left: 30px;}
+#footer-recentes #title-recentes {width: 100%; padding: 5px 0;border-bottom: 2px solid #efeeee;}
+#footer-recentes #title-recentes span {font: 22px arial; font-weight: bold; padding: 5px 0 ; color: #f8f8f8;border-bottom: 2px solid #049238;}
+#footer-recentes ul {margin: 0; padding: 0; list-style: none;}
+#footer-recentes ul li {width: 100%; border-bottom: 1px solid #333;padding: 8px 0;font: 13px arial;font-weight: bold;}
+#footer-recentes ul li a {color: #f8f8f8; text-decoration: none; }
+#footer-recentes ul li a:hover {color: #049238;}
+#footer-info {width: 100%; clear: both; border-top: 1px solid #333; padding: 20px 0;overflow: hidden; float: left;margin-top: 20px;}
+#info-content{width: 1000px; margin: 0 auto;}
+#footer-info span {float: left;color: #efeeee;font: 12px arial; font-weight: bold;}
+#footer-info span b {color: #049238;}
+#footer-info .info-right {float: right;}
